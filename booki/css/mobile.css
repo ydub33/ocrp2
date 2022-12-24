@@ -1,0 +1,453 @@
+/* Définition des polices personnalisées */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+/*************************************************/
+/*************************************************/
+/***************      MOBILE        **************/
+
+@media (max-width: 768px) {
+
+    /******************************/
+    /*********   HEADER     ******/
+    /*****************************/
+
+    header {
+
+        margin: 0;
+        flex-direction: column;
+
+    }
+
+    #logo {
+
+        padding-top: 6%;
+    }
+
+
+    header nav {
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0%;
+
+    }
+
+    header nav a {
+
+        padding: 10%;
+        padding-bottom: 4%;
+        margin: 0;
+        display: flex;
+        border-bottom: 2px solid #f2f2f2;
+        width: 50%;
+        justify-content: center;
+
+    }
+
+    header nav a:hover {
+
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+    }
+
+    /***************************/
+    /*********   MAIN     ******/
+    /***************************/
+
+    main {
+        margin: 0;
+    }
+
+
+    /*    Partie Recherche     */
+    /***************************/
+
+
+    h1 {
+
+        font-weight: bolder;
+        width: 100%;
+        padding: 2%;
+
+    }
+
+    .sec_recherche {
+
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    .sec_recherche p {
+
+        margin-left: 2%;
+
+    }
+
+    .div_rec {
+        display: flex;
+        margin-top: 12%;
+        margin-bottom: 4%;
+    }
+
+
+    .btn_map {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        border-bottom-left-radius: 25%;
+        border-top-left-radius: 25%;
+
+    }
+
+    #recherche {
+        width: 73%;
+        border-color: #f2f2f2;
+        border-width: 2px;
+        border-style: solid;
+        text-indent: 3%;
+
+    }
+
+
+    .btn_rec {
+
+        display: none;
+    }
+
+    .btn_rec2 {
+        width: 16%;
+        display: flex;
+        background-color: #0065FC;
+        border: none;
+        border-radius: 25%;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        margin-left: -4%;
+
+    }
+
+
+    /*    Partie Filtres       */
+    /***************************/
+
+
+    .sec_filtres {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .sec_filtres h4 {
+        width: 100%;
+        margin-left: 2%;
+    }
+
+
+    .div_filtres {
+
+        width: 95%;
+        flex-wrap: wrap;
+
+    }
+
+    .filtre_bill,
+    .filtre_fam,
+    .filtre_heart,
+    .filtre_dog {
+
+        margin: 3%;
+        border-top-left-radius: 55px;
+        border-bottom-left-radius: 55px;
+        border-top-right-radius: 55px;
+        border-bottom-right-radius: 55px;
+
+    }
+
+    .btn_bill,
+    .btn_child,
+    .btn_heart,
+    .btn_dog {
+
+        padding: 10px;
+        margin-left: -6px;
+
+    }
+
+    .btn_eco,
+    .btn_fam,
+    .btn_romance,
+    .btn_animal {
+
+        padding: 8px;
+
+    }
+
+    /* info */
+
+    .div_info {
+
+        width: 100%;
+
+    }
+
+    .btn_i {
+
+        padding-left: 3%;
+        padding-right: 3%;
+
+    }
+
+    .div_info p {
+
+        margin-left: 3%;
+    }
+
+
+    /**********************************/
+    /*    Section  Hebergements       */
+    /**********************************/
+
+    h2 {
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    /*    les populaires       */
+    /***************************/
+
+    .pop {
+
+        width: 100%;
+        height: 565px;
+        border-radius: 0;
+
+    }
+
+    .pop_top {
+
+        margin-right: 7%;
+        margin-top: -2%;
+        align-items: baseline;
+    }
+
+    .chart {
+        font-size: 20px;
+    }
+
+    .les_cards_pop {
+
+        margin-left: 2%;
+        margin-right: 4%;
+        justify-content: flex-start;
+    }
+
+
+    .pop_1 {
+        width: 40%;
+    }
+
+    .pop_2 {
+        width: 60%;
+    }
+
+    .card7,
+    .card8,
+    .card9 {
+
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+
+    .img7,
+    .img8,
+    .img9 {
+
+        height: 135px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+
+    .card_desc {
+
+        height: auto;
+        padding: 3%;
+    }
+
+
+    .pop a {
+        display: flex;
+    }
+
+    .pop .card_txt {
+
+        margin-top: -12%;
+    }
+
+
+
+    /*  hebergements */
+
+
+    .div_heberg {
+
+        width: auto;
+        background-color: white;
+        min-height: 300px;
+        border-radius: 20px;
+
+    }
+
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
+
+        width: 100%;
+        height: 115px;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .les_cards {
+
+        padding: 0;
+    }
+
+
+    .card_heb {
+
+        width: 100%;
+        padding: 1%;
+        margin: 2%;
+    }
+
+
+
+    .card_heb_desc {
+        margin-left: 4%;
+        margin-top: 10%;
+    }
+
+    .card_title {
+        margin-top: -8%;
+    }
+
+    .card_price {
+        margin-top: -20px;
+
+    }
+
+    .card_icons {
+        display: flex;
+        margin-top: -10px;
+        margin-bottom: 2%;
+
+    }
+
+
+    .heberg_bottom {
+
+
+        margin-left: 5%;
+
+
+    }
+
+
+
+    /**********************************/
+    /*    Section  Activités       */
+    /**********************************/
+
+    .activite h2 {
+        margin-left: 5%;
+        margin-bottom: 8%;
+    }
+
+    .activite_cards {
+
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 11%;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+
+    }
+
+
+    .act_part2,
+    .act_part4 {
+
+        width: 100%;
+        padding-right: 5%;
+
+    }
+
+
+    .card10,
+    .card11,
+    .card12,
+    .card13,
+    .card14,
+    .card15 {
+
+        width: 100%;
+
+    }
+
+    .img10,
+    .img12,
+    .img13,
+    .img14,
+    .img15 {
+
+        height: 150px;
+        object-position: 50% 20%;
+    }
+
+
+    .img11 {
+
+        height: 150px;
+        object-position: 50% 45%;
+
+    }
+
+
+    /*****************************/
+    /*********   FOOTER     ******/
+    /*****************************/
+
+
+    footer {
+
+        flex-direction: column;
+        align-items: baseline;
+
+    }
+
+    .foot_part1,
+    .foot_part2,
+    .foot_part3 {
+
+        width: auto;
+        margin-top: 8%;
+        margin-bottom: -2%;
+
+    }
+
+}
